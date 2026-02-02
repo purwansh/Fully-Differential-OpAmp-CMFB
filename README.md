@@ -12,10 +12,10 @@ The project was completed as part of **EE610: Analog IC Design**.
 - CMFB phase margin ≥ 60°
 
 ## Architecture
-- First stage: NMOS differential pair with PMOS active loads
-- Second stage: PMOS differential pair with NMOS active loads
-- Compensation: Miller capacitors with series resistors
-- CMFB: Two 5-transistor OTA-based CMFB loops
+- First stage: NMOS differential pair with PMOS active loads  
+- Second stage: PMOS differential pair with NMOS active loads  
+- Compensation: Miller capacitors with series resistors  
+- CMFB: Two 5-transistor OTA-based CMFB loops (one per stage)
 
 ## Key Results
 | Parameter | Value |
@@ -24,8 +24,20 @@ The project was completed as part of **EE610: Analog IC Design**.
 | Differential UGB | 3.95 MHz |
 | Phase Margin | 64° |
 | Closed-loop BW | 6.19 MHz |
-| CMFB1 PM | 61.1° |
-| CMFB2 PM | 72.6° |
+| CMFB1 Phase Margin | 61.1° |
+| CMFB2 Phase Margin | 72.6° |
+
+## Representative Simulation Results
+
+### Differential Loop Gain
+![Differential Loop Gain](Differential-mode loop gain mag and phase response.bmp)
+
+### Closed-Loop Frequency Response
+![Closed-loop Frequency Response](Closed-loop frequency response.bmp)
+
+### CMFB Loop Stability
+![CMFB1 Loop Gain](CMFB1 loop gain magnitude and phase response.bmp)  
+![CMFB2 Loop Gain](CMFB2 loop gain magnitude and phase response.bmp)
 
 ## Tools Used
 - Cadence Virtuoso
@@ -34,5 +46,4 @@ The project was completed as part of **EE610: Analog IC Design**.
 
 ## Disclaimer
 This repository contains only documentation and simulation results.  
-No proprietary PDKs or Cadence design files are included.
-
+No proprietary PDKs, model files, or Cadence design databases are included.
