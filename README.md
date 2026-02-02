@@ -30,14 +30,14 @@ The project was completed as part of **EE610: Analog IC Design**.
 ## Representative Simulation Results
 
 ### Differential Loop Gain
-![Differential Loop Gain](Differential-mode loop gain mag and phase response.bmp)
+![Differential Loop Gain](diff_loop_gain.bmp)
 
 ### Closed-Loop Frequency Response
-![Closed-loop Frequency Response](Closed-loop frequency response.bmp)
+![Closed-loop Frequency Response](closed_loop_response.bmp)
 
 ### CMFB Loop Stability
-![CMFB1 Loop Gain](CMFB1 loop gain magnitude and phase response.bmp)  
-![CMFB2 Loop Gain](CMFB2 loop gain magnitude and phase response.bmp)
+![CMFB1 Loop Gain](cmfb1_loop_gain.bmp)  
+![CMFB2 Loop Gain](cmfb2_loop_gain.bmp)
 
 ## Tools Used
 - Cadence Virtuoso
