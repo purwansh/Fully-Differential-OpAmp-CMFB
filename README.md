@@ -30,14 +30,14 @@ The project was completed as part of **EE610: Analog IC Design**.
 ## Representative Simulation Results
 
 ### Differential Loop Gain
-![Differential Loop Gain](simulations/diff_loop_gain.png)
+![Differential Loop Gain](simulations/diff_loop_gain.jpg)
 
 ### Closed-Loop Frequency Response
-![Closed-loop Frequency Response](simulations/closed_loop_response.png)
+![Closed-loop Frequency Response](simulations/closed_loop_response.jpg)
 
 ### CMFB Loop Stability
-![CMFB1 Loop Gain](simulations/cmfb1_loop_gain.png)  
-![CMFB2 Loop Gain](simulations/cmfb2_loop_gain.png)
+![CMFB1 Loop Gain](simulations/cmfb1_loop_gain.jpg)  
+![CMFB2 Loop Gain](simulations/cmfb2_loop_gain.jpg)
 
 
 ## Tools Used
